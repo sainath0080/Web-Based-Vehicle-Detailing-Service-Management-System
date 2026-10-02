@@ -1,0 +1,197 @@
+D:\sparkelapp\sparkelwash\sparkelwash\bin\Debug\net10.0\appsettings.Development.json
+D:\sparkelapp\sparkelwash\sparkelwash\bin\Debug\net10.0\appsettings.json
+D:\sparkelapp\sparkelwash\sparkelwash\bin\Debug\net10.0\sparkelwash.staticwebassets.runtime.json
+D:\sparkelapp\sparkelwash\sparkelwash\bin\Debug\net10.0\sparkelwash.staticwebassets.endpoints.json
+D:\sparkelapp\sparkelwash\sparkelwash\bin\Debug\net10.0\sparkelwash.exe
+D:\sparkelapp\sparkelwash\sparkelwash\bin\Debug\net10.0\sparkelwash.deps.json
+D:\sparkelapp\sparkelwash\sparkelwash\bin\Debug\net10.0\sparkelwash.runtimeconfig.json
+D:\sparkelapp\sparkelwash\sparkelwash\bin\Debug\net10.0\sparkelwash.dll
+D:\sparkelapp\sparkelwash\sparkelwash\bin\Debug\net10.0\sparkelwash.pdb
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\sparkelwash.GeneratedMSBuildEditorConfig.editorconfig
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\sparkelwash.AssemblyInfoInputs.cache
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\sparkelwash.AssemblyInfo.cs
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\sparkelwash.csproj.CoreCompileInputs.cache
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\sparkelwash.MvcApplicationPartsAssemblyInfo.cache
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\sparkelwash.RazorAssemblyInfo.cache
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\sparkelwash.RazorAssemblyInfo.cs
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\scopedcss\bundle\sparkelwash.styles.css
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\scopedcss\projectbundle\sparkelwash.bundle.scp.css
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\9jz66c2dyr-{0}-b9sayid5wm-b9sayid5wm.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\usmcpxpkbk-{0}-61n19gt1b8-61n19gt1b8.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\vo75amc7j2-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\6oskzffw79-{0}-bqjiyaj88i-bqjiyaj88i.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\8aqwnvsr22-{0}-c2jlpeoesf-c2jlpeoesf.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\y1wayhbbaj-{0}-erw9l3u2r3-erw9l3u2r3.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\49cdxklpr3-{0}-aexeepp0ev-aexeepp0ev.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\qkk4a4ju6q-{0}-d7shbmvgxk-d7shbmvgxk.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\zxkd3vmkpz-{0}-ausgxo2sd3-ausgxo2sd3.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\cpe8ykcyvw-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\mm83ogw364-{0}-cosvhxvwiu-cosvhxvwiu.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\2t7504fc21-{0}-ub07r2b239-ub07r2b239.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\hbwmvzvrqy-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\55qe7x82el-{0}-b7pk76d08c-b7pk76d08c.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\9ysty5x5ai-{0}-fsbi9cje9m-fsbi9cje9m.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\1aqt99dlg9-{0}-rzd6atqjts-rzd6atqjts.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\bleb2p6iw9-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\bqh0jkhm88-{0}-dxx9fxp4il-dxx9fxp4il.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\mobzcrkveg-{0}-jd9uben2k1-jd9uben2k1.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\xe26f1at0e-{0}-khv3u5hwcm-khv3u5hwcm.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\l58wcqu6qk-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\wtis5653g0-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\kqhjytths8-{0}-c2oey78nd0-c2oey78nd0.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\0rsbavxenz-{0}-tdbxkamptv-tdbxkamptv.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\ruv0i5fsr2-{0}-j5mq2jizvt-j5mq2jizvt.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\0833du4tlh-{0}-06098lyss8-06098lyss8.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\5n1p7fx274-{0}-nvvlpmu67g-nvvlpmu67g.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\7vyy0hij6i-{0}-s35ty4nyc5-s35ty4nyc5.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\qhi6s9it03-{0}-pj5nd1wqec-pj5nd1wqec.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\22qmo20ksh-{0}-46ein0sx1k-46ein0sx1k.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\kl15b7er1e-{0}-v0zj4ognzu-v0zj4ognzu.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\e03enys3kl-{0}-37tfw0ft22-37tfw0ft22.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\j52y3bv2u6-{0}-hrwsygsryq-hrwsygsryq.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\0cojgcbsm1-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\jcy6jlfflf-{0}-ft3s53vfgj-ft3s53vfgj.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\is113eddu2-{0}-6cfz1n2cew-6cfz1n2cew.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\o684tykb4o-{0}-6pdc2jztkx-6pdc2jztkx.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\88qfes9zou-{0}-493y06b0oq-493y06b0oq.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\jk62vlhhf3-{0}-iovd86k7lj-iovd86k7lj.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\xma19e5f0y-{0}-vr1egmr9el-vr1egmr9el.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\ab3l7t5pwf-{0}-kbrnm935zg-kbrnm935zg.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\njsku3q55k-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\nrymulx268-{0}-y7v9cxd14o-y7v9cxd14o.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\606cmbx0x5-{0}-notf2xhcfb-notf2xhcfb.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\s00nu97uja-{0}-h1s4sie4z3-h1s4sie4z3.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\swq3r4p8t8-{0}-63fj8s7r0e-63fj8s7r0e.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\3ti43hgqw1-{0}-0j3bgjxly4-0j3bgjxly4.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\fgre6yd69w-{0}-47otxtyo56-47otxtyo56.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\nbrkp4ok7e-{0}-4v8eqarkd7-4v8eqarkd7.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\v0ehtmx9cy-{0}-356vix0kms-356vix0kms.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\qiqzmln4ic-{0}-83jwlth58m-83jwlth58m.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\269o2esbxd-{0}-mrlpezrjn3-mrlpezrjn3.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\s5w1csb11d-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\u4chh8ttk0-{0}-ag7o75518u-ag7o75518u.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\h83z3y0tdx-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\lhz1ixanlj-{0}-0i3buxo5is-0i3buxo5is.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\3nn3t88ufy-{0}-o1o13a6vjx-o1o13a6vjx.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\mgo7kqyr5s-{0}-ttgo8qnofa-ttgo8qnofa.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\3iu5vdf4t2-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\04rrn9bbwr-{0}-muycvpuwrr-muycvpuwrr.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\bv145ehg2x-{0}-87fc7y1x7t-87fc7y1x7t.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\giy8kg5xkh-{0}-mlv21k5csn-mlv21k5csn.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\no34p2hdgo-{0}-4k4q1jklgr-4k4q1jklgr.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\compressed\5u17vkhysk-{0}-4k4q1jklgr-4k4q1jklgr.gz
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\staticwebassets.build.json
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\staticwebassets.development.json
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\swae.build.ex.cache
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\sparkelwash.dll
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\refint\sparkelwash.dll
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\sparkelwash.pdb
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\sparkelwash.genruntimeconfig.cache
+D:\sparkelapp\sparkelwash\sparkelwash\obj\Debug\net10.0\ref\sparkelwash.dll
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\bin\Debug\net10.0\appsettings.Development.json
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\bin\Debug\net10.0\appsettings.json
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\bin\Debug\net10.0\sparkelwash.staticwebassets.endpoints.json
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\bin\Debug\net10.0\sparkelwash.staticwebassets.runtime.json
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\bin\Debug\net10.0\sparkelwash.exe
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\bin\Debug\net10.0\sparkelwash.deps.json
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\bin\Debug\net10.0\sparkelwash.runtimeconfig.json
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\bin\Debug\net10.0\sparkelwash.dll
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\bin\Debug\net10.0\sparkelwash.pdb
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\sparkelwash.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\sparkelwash.AssemblyInfoInputs.cache
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\sparkelwash.AssemblyInfo.cs
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\sparkelwash.csproj.CoreCompileInputs.cache
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\sparkelwash.MvcApplicationPartsAssemblyInfo.cache
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\sparkelwash.RazorAssemblyInfo.cache
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\sparkelwash.RazorAssemblyInfo.cs
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\scopedcss\bundle\sparkelwash.styles.css
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\scopedcss\projectbundle\sparkelwash.bundle.scp.css
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\9jz66c2dyr-{0}-b9sayid5wm-b9sayid5wm.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\usmcpxpkbk-{0}-61n19gt1b8-61n19gt1b8.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\vo75amc7j2-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\6oskzffw79-{0}-bqjiyaj88i-bqjiyaj88i.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\8aqwnvsr22-{0}-c2jlpeoesf-c2jlpeoesf.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\y1wayhbbaj-{0}-erw9l3u2r3-erw9l3u2r3.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\49cdxklpr3-{0}-aexeepp0ev-aexeepp0ev.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\qkk4a4ju6q-{0}-d7shbmvgxk-d7shbmvgxk.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\zxkd3vmkpz-{0}-ausgxo2sd3-ausgxo2sd3.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\cpe8ykcyvw-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\mm83ogw364-{0}-cosvhxvwiu-cosvhxvwiu.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\2t7504fc21-{0}-ub07r2b239-ub07r2b239.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\hbwmvzvrqy-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\55qe7x82el-{0}-b7pk76d08c-b7pk76d08c.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\9ysty5x5ai-{0}-fsbi9cje9m-fsbi9cje9m.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\1aqt99dlg9-{0}-rzd6atqjts-rzd6atqjts.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\bleb2p6iw9-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\bqh0jkhm88-{0}-dxx9fxp4il-dxx9fxp4il.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\mobzcrkveg-{0}-jd9uben2k1-jd9uben2k1.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\xe26f1at0e-{0}-khv3u5hwcm-khv3u5hwcm.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\l58wcqu6qk-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\wtis5653g0-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\kqhjytths8-{0}-c2oey78nd0-c2oey78nd0.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\0rsbavxenz-{0}-tdbxkamptv-tdbxkamptv.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\ruv0i5fsr2-{0}-j5mq2jizvt-j5mq2jizvt.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\0833du4tlh-{0}-06098lyss8-06098lyss8.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\5n1p7fx274-{0}-nvvlpmu67g-nvvlpmu67g.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\7vyy0hij6i-{0}-s35ty4nyc5-s35ty4nyc5.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\qhi6s9it03-{0}-pj5nd1wqec-pj5nd1wqec.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\22qmo20ksh-{0}-46ein0sx1k-46ein0sx1k.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\kl15b7er1e-{0}-v0zj4ognzu-v0zj4ognzu.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\e03enys3kl-{0}-37tfw0ft22-37tfw0ft22.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\j52y3bv2u6-{0}-hrwsygsryq-hrwsygsryq.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\0cojgcbsm1-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\jcy6jlfflf-{0}-ft3s53vfgj-ft3s53vfgj.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\is113eddu2-{0}-6cfz1n2cew-6cfz1n2cew.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\o684tykb4o-{0}-6pdc2jztkx-6pdc2jztkx.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\88qfes9zou-{0}-493y06b0oq-493y06b0oq.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\jk62vlhhf3-{0}-iovd86k7lj-iovd86k7lj.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\xma19e5f0y-{0}-vr1egmr9el-vr1egmr9el.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\ab3l7t5pwf-{0}-kbrnm935zg-kbrnm935zg.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\njsku3q55k-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\nrymulx268-{0}-y7v9cxd14o-y7v9cxd14o.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\606cmbx0x5-{0}-notf2xhcfb-notf2xhcfb.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\s00nu97uja-{0}-h1s4sie4z3-h1s4sie4z3.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\swq3r4p8t8-{0}-63fj8s7r0e-63fj8s7r0e.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\3ti43hgqw1-{0}-0j3bgjxly4-0j3bgjxly4.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\fgre6yd69w-{0}-47otxtyo56-47otxtyo56.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\nbrkp4ok7e-{0}-4v8eqarkd7-4v8eqarkd7.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\v0ehtmx9cy-{0}-356vix0kms-356vix0kms.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\qiqzmln4ic-{0}-83jwlth58m-83jwlth58m.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\269o2esbxd-{0}-mrlpezrjn3-mrlpezrjn3.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\s5w1csb11d-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\u4chh8ttk0-{0}-ag7o75518u-ag7o75518u.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\h83z3y0tdx-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\lhz1ixanlj-{0}-0i3buxo5is-0i3buxo5is.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\3nn3t88ufy-{0}-o1o13a6vjx-o1o13a6vjx.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\mgo7kqyr5s-{0}-ttgo8qnofa-ttgo8qnofa.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\3iu5vdf4t2-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\04rrn9bbwr-{0}-muycvpuwrr-muycvpuwrr.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\bv145ehg2x-{0}-87fc7y1x7t-87fc7y1x7t.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\giy8kg5xkh-{0}-mlv21k5csn-mlv21k5csn.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\no34p2hdgo-{0}-4k4q1jklgr-4k4q1jklgr.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\compressed\5u17vkhysk-{0}-4k4q1jklgr-4k4q1jklgr.gz
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\staticwebassets.build.json
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\staticwebassets.development.json
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\swae.build.ex.cache
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\sparkelwash.dll
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\refint\sparkelwash.dll
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\sparkelwash.pdb
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\sparkelwash.genruntimeconfig.cache
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\ref\sparkelwash.dll
+D:\Web-Based Vehicle Detailing & Service Management System\sparkelwash\obj\Debug\net10.0\sparkelw.C559F6C0.Up2Date

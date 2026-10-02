@@ -1,0 +1,260 @@
+﻿@{
+    ViewData["Title"] = "Sparkle Wash";
+}
+@if (TempData["Message"] != null)
+{
+    <div id="success-alert" class="alert alert-success text-center fw-bold fs-5 shadow-sm mt-3 container">
+        @TempData["Message"]
+    </div>
+    <script>
+        setTimeout(function() {
+            var alertBox = document.getElementById('success-alert');
+            if (alertBox) {
+                alertBox.style.transition = 'opacity 1s';
+                alertBox.style.opacity = '0';
+                setTimeout(function() { alertBox.style.display = 'none'; }, 1000);
+            }
+        }, 4000);
+    </script>
+}
+<style>
+    @@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Poppins:wght@400;600&display=swap');
+
+    .brand-title {
+        font-family: 'Cinzel', serif;
+        letter-spacing: 3px;
+        font-size: 4rem;
+        color: #00e5ff;
+        text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+    }
+
+    .hero-section {
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1552930294-6b595f4c2974?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
+        min-height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 5px solid #00e5ff;
+    }
+</style>
+
+<!-- Hero Section -->
+<div class="hero-section text-center text-white shadow-lg rounded">
+    <div class="mb-3">
+        <img src="https://cdn-icons-png.flaticon.com/512/8204/8204217.png" alt="Logo" width="100" style="filter: drop-shadow(0 0 10px #00e5ff);" />
+    </div>
+    <h1 class="brand-title">SPARKLE WASH</h1>
+    <p class="lead fs-4" style="font-family: 'Poppins', sans-serif;">Premium Car, Bike & MIDC Transport Detailing</p>
+    <div class="mt-4">
+        <a href="#packages" class="btn btn-lg btn-outline-info px-4 py-3 fw-bold me-2">View Packages</a>
+        <a href="#ppf-studio" class="btn btn-lg btn-warning px-4 py-3 fw-bold shadow-lg me-2">🛡️ PPF & Coating</a>
+    </div>
+</div>
+
+<!-- NEW: Premium PPF & Coating Studio (येथे लिंक अपडेट केली आहे) -->
+<div id="ppf-studio" class="container mt-5 mb-5 text-center pt-4">
+    <h2 class="fw-bold mb-3 text-uppercase" style="font-family: 'Cinzel', serif; color: #ff0055;">🛡️ Premium Protection & PPF Studio</h2>
+    <p class="text-muted fs-5 mb-5">गाडीचा रंग आणि चमक वर्षानुवर्षे टिकवण्यासाठी खास 'प्लॅस्टिक कोटिंग' आणि 'पेंट प्रोटेक्शन फिल्म (PPF)'</p>
+
+    <div class="row g-4">
+        <!-- Bike PPF -->
+        <div class="col-md-6">
+            <div class="card shadow-lg border-0 h-100">
+                <img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Bike PPF" style="height: 300px; object-fit: cover;">
+                <div class="card-body bg-dark text-white rounded-bottom">
+                    <h3 class="fw-bold text-danger">🏍️ Bike Teflon & PPF Coating</h3>
+                    <h4 class="text-warning mb-3">₹1500</h4>
+                    <p class="fs-5">पूर्ण बॉडी लॅमिनेशन, ओरखड्यांपासून बचाव आणि हाय-ग्लॉस शाईन.</p>
+                    <a href="/User/BookService?vType=Bike&isPPF=true" class="btn btn-danger btn-lg w-100 fw-bold">Book PPF for Bike</a>
+                </div>
+            </div>
+        </div>
+        <!-- Car Ceramic -->
+        <div class="col-md-6">
+            <div class="card shadow-lg border-0 h-100">
+                <img src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Car Ceramic" style="height: 300px; object-fit: cover;">
+                <div class="card-body bg-dark text-white rounded-bottom">
+                    <h3 class="fw-bold text-info">🚗 Car Ceramic & PPF Coating</h3>
+                    <h4 class="text-warning mb-3">₹5000</h4>
+                    <p class="fs-5">5-Year Warranty PPF, 9H Ceramic Coating, UV & Scratch Protection.</p>
+                    <a href="/User/BookService?vType=Car&isPPF=true" class="btn btn-info btn-lg w-100 fw-bold text-dark">Book PPF for Car</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Packages Section (Regular Wash) -->
+<div id="packages" class="mt-5 container text-center border-top pt-5">
+    <h2 class="fw-bold mb-5" style="font-family: 'Cinzel', serif; font-size: 2.5rem;">Standard Wash Packages</h2>
+
+    <!-- Car Packages -->
+    <h3 class="text-start text-primary border-bottom border-primary pb-2 mb-4">🚗 Car Detailing Packages</h3>
+    <div class="row mb-5">
+        <div class="col-md-6 mb-3">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body bg-light text-dark rounded">
+                    <h4 class="fw-bold">Standard Wash</h4>
+                    <h5 class="text-secondary">₹400</h5>
+                    <ul class="text-start mt-3 mb-4 list-unstyled px-3">
+                        <li>✔️ Foam Wash</li>
+                        <li>✔️ Tire Polish</li>
+                        <li>✔️ Basic Interior Vacuum</li>
+                    </ul>
+                    <a href="/User/BookService?vType=Car" class="btn btn-outline-dark btn-sm w-100 mt-auto">Book Slot</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-3">
+            <div class="card shadow-lg border-info h-100">
+                <div class="card-header bg-info text-dark fw-bold">⭐ Best Seller</div>
+                <div class="card-body bg-dark text-white rounded-bottom d-flex flex-column">
+                    <h4 class="fw-bold text-info">Gold Detailing</h4>
+                    <h5>₹800</h5>
+                    <ul class="text-start mt-3 mb-4 list-unstyled px-3">
+                        <li>✔️ Deep Foam Wash</li>
+                        <li>✔️ Exterior Waxing</li>
+                        <li>✔️ Deep Interior Vacuum</li>
+                        <li>✔️ Dashboard Polish</li>
+                    </ul>
+                    <a href="/User/BookService?vType=Car" class="btn btn-info w-100 fw-bold mt-auto text-dark">Book Slot</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bike Packages -->
+    <h3 class="text-start text-danger border-bottom border-danger pb-2 mb-4">🏍️ Bike Detailing Packages</h3>
+    <div class="row mb-5">
+        <div class="col-md-6 mb-3">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body bg-light text-dark rounded d-flex flex-column">
+                    <h4 class="fw-bold">Quick Wash</h4>
+                    <h5 class="text-secondary">₹200</h5>
+                    <ul class="text-start mt-3 mb-4 list-unstyled px-3">
+                        <li>✔️ Water Wash</li>
+                        <li>✔️ Soap Wash</li>
+                    </ul>
+                    <a href="/User/BookService?vType=Bike" class="btn btn-outline-dark btn-sm w-100 mt-auto">Book Slot</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-3">
+            <div class="card shadow-lg border-danger h-100">
+                <div class="card-header bg-danger text-white fw-bold">🔥 Popular</div>
+                <div class="card-body bg-dark text-white rounded-bottom d-flex flex-column">
+                    <h4 class="fw-bold text-danger">Sport Detailing</h4>
+                    <h5>₹450</h5>
+                    <ul class="text-start mt-3 mb-4 list-unstyled px-3">
+                        <li>✔️ Foam Wash</li>
+                        <li>✔️ Chain Clean & Lube</li>
+                        <li>✔️ Body Polish</li>
+                    </ul>
+                    <a href="/User/BookService?vType=Bike" class="btn btn-danger w-100 fw-bold mt-auto">Book Slot</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MIDC Transport Packages -->
+    <h3 class="text-start text-warning border-bottom border-warning pb-2 mb-4">🚛 MIDC Transport Packages</h3>
+    <div class="row mb-5">
+        <div class="col-md-4 mb-3">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body bg-light text-dark rounded d-flex flex-column">
+                    <h4 class="fw-bold">Tempo / Auto Wash</h4>
+                    <h5 class="text-secondary">₹500</h5>
+                    <ul class="text-start mt-3 mb-4 list-unstyled px-3">
+                        <li>✔️ High Pressure Wash</li>
+                        <li>✔️ Mud Removal</li>
+                    </ul>
+                    <a href="/User/BookService?vType=Three-Wheeler" class="btn btn-outline-dark btn-sm w-100 mt-auto">Book Slot</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card shadow-lg border-warning h-100">
+                <div class="card-header bg-warning text-dark fw-bold">🏗️ Heavy Duty</div>
+                <div class="card-body bg-dark text-white rounded-bottom d-flex flex-column">
+                    <h4 class="fw-bold text-warning">Truck Wash</h4>
+                    <h5>₹1200</h5>
+                    <ul class="text-start mt-3 mb-4 list-unstyled px-3">
+                        <li>✔️ Underbody Wash</li>
+                        <li>✔️ Full Exterior Wash</li>
+                    </ul>
+                    <a href="/User/BookService?vType=Heavy%20Truck" class="btn btn-warning w-100 fw-bold mt-auto text-dark">Book Slot</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body bg-light text-dark rounded d-flex flex-column">
+                    <h4 class="fw-bold text-danger">Tanker Deep Clean</h4>
+                    <h5 class="text-secondary">₹2500</h5>
+                    <ul class="text-start mt-3 mb-4 list-unstyled px-3">
+                        <li>✔️ Chemical Stain Removal</li>
+                        <li>✔️ Heavy Degreasing</li>
+                    </ul>
+                    <a href="/User/BookService?vType=Tanker" class="btn btn-outline-dark btn-sm w-100 mt-auto">Book Slot</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Info & Reviews Section -->
+<div class="container mt-5 mb-5 border-top pt-5">
+    <h2 class="fw-bold text-center mb-5" style="font-family: 'Cinzel', serif;">Why Choose Us & Reviews</h2>
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card h-100 shadow-sm border-0 bg-light p-4">
+                <h4 class="text-primary fw-bold mb-3">🌟 About Sparkle Wash</h4>
+                <p class="fs-5">आम्ही लोटे MIDC मधील सर्वात वेगाने वाढणारे आणि विश्वासार्ह व्हेईकल डिटेलिंग सेंटर आहोत. आमच्याकडे अत्याधुनिक मशिनरी आणि प्रशिक्षित कर्मचारी आहेत.</p>
+                <ul class="list-unstyled mt-3 fs-5">
+                    <li class="mb-2">✅ 100% Customer Satisfaction</li>
+                    <li class="mb-2">✅ Eco-friendly & Safe Chemicals</li>
+                    <li class="mb-2">✅ Time-saving Smart Booking System</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="card h-100 shadow-sm border-0 bg-light p-4">
+                <h4 class="text-success fw-bold mb-3">💬 What Our Customers Say</h4>
+                <div class="mb-4 border-bottom pb-3">
+                    <strong class="fs-5">⭐⭐⭐⭐⭐ - Rahul M.</strong>
+                    <p class="mb-0 text-muted fs-6 mt-1">"Excellent service! The double booking prevention saved my time. Highly recommended for bikes. Also, their Home Service is very convenient!"</p>
+                </div>
+                <div>
+                    <strong class="fs-5">⭐⭐⭐⭐⭐ - MIDC Transport Co.</strong>
+                    <p class="mb-0 text-muted fs-6 mt-1">"Best deep cleaning for our chemical tankers. Very professional staff and transparent billing system."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Shop Info & Contact Section -->
+<div id="about-contact" class="row mt-5 mb-5 border-top pt-5">
+    <h2 class="fw-bold text-center mb-5" style="font-family: 'Cinzel', serif;">Shop Info & Contact</h2>
+
+    <div class="col-md-6 mb-4">
+        <div class="p-4 bg-dark text-white rounded shadow text-center h-100" style="border-left: 5px solid #00e5ff;">
+            <h3><i class="bi bi-clock"></i> Shop Timings</h3>
+            <hr class="text-info" />
+            <p class="fs-5 mt-4"><strong>Monday to Sunday</strong></p>
+            <p class="fs-3 text-warning fw-bold">09:00 AM to 06:00 PM</p>
+            <p class="fs-6 text-muted mt-3">We are open every day for MIDC transport, cars, and bikes.</p>
+        </div>
+    </div>
+
+    <div class="col-md-6 mb-4">
+        <div class="p-4 bg-dark text-white rounded shadow text-center h-100" style="border-left: 5px solid #ffcc00;">
+            <h3><i class="bi bi-telephone"></i> Contact Details</h3>
+            <hr class="text-warning" />
+            <p class="fs-5 mt-4">📍 <strong>Address:</strong> Lote (MIDC), City Center</p>
+            <p class="fs-5">📞 <strong>Phone:</strong> +91 8007015849 / +91 9322613528</p>
+            <p class="fs-5 text-info">✉️ <strong>Email:</strong> contact@sparklewash.com</p>
+        </div>
+    </div>
+</div>

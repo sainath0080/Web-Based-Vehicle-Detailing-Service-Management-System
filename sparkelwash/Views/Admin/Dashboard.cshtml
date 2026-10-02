@@ -1,0 +1,86 @@
+﻿@model IEnumerable<sparkelwash.Models.Booking>
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center border-bottom pb-2 mb-4">
+        <h2 class="text-danger fw-bold m-0">Admin Panel - All Bookings</h2>
+        <a href="/Admin/Logout" class="btn btn-outline-danger fw-bold">🚪 Logout</a>
+    </div>
+
+    <table class="table table-hover mt-4 shadow-sm align-middle">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Customer</th>
+                <th>Vehicle</th>
+                <th>Package & Mode</th>
+                <th>Total Bill</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var b in Model)
+            {
+                <tr>
+                    <td>@b.Id</td>
+                    <td>
+                        <strong>@b.CustomerName</strong><br />
+                        <small>📞 @b.MobileNumber</small>
+                    </td>
+                    <td>
+                        @b.VehicleType - @b.VehicleModel<br />
+                        <small class="text-muted">@b.VehicleNumber</small>
+                    </td>
+                    <td>
+                        @b.Package<br />
+                        <span class="badge bg-secondary">@b.ServiceType</span>
+                        @if (b.ServiceType == "Home Service")
+                        {
+                            <br /><small class="text-primary">📍 @b.Address (@b.Distance km)</small>
+                        }
+                    </td>
+                    <td>
+                        <strong class="text-success fs-5">₹@b.TotalCost</strong><br />
+                        
+                        <small class="text-muted">Payment: <strong>@b.PaymentMethod</strong></small>
+                    </td>
+                    <td>
+                        <span class="badge @(b.Status == "Completed" ? "bg-success" : b.Status == "Accepted" ? "bg-info text-dark" : "bg-warning text-dark")">
+                            @b.Status
+                        </span>
+                    </td>
+                    <td>
+                        @if (b.Status == "Pending")
+                        {
+                            <form action="/Admin/UpdateStatus" method="post" style="display:inline;">
+                                <input type="hidden" name="id" value="@b.Id" />
+                                <input type="hidden" name="newStatus" value="Accepted" />
+                                <button type="submit" class="btn btn-sm btn-info w-100 mb-1 fw-bold">Accept</button>
+                            </form>
+                        }
+                        else if (b.Status == "Accepted")
+                        {
+                            <form action="/Admin/UpdateStatus" method="post" style="display:inline;">
+                                <input type="hidden" name="id" value="@b.Id" />
+                                <input type="hidden" name="newStatus" value="Completed" />
+                                <button type="submit" class="btn btn-sm btn-success w-100 fw-bold">Mark Completed</button>
+                            </form>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script>
+    // Back Button Fix for Admin
+    window.addEventListener('pageshow', function(event) {
+        if (event.persisted || (window.performance && window.performance.navigation.type === 2)) {
+            window.location.reload();
+        }
+    });
+</script>

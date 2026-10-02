@@ -1,0 +1,187 @@
+﻿@model sparkelwash.Models.Booking
+@{
+    ViewData["Title"] = "Book Your Slot";
+}
+
+<div class="container mt-4 mb-5" style="max-width: 700px;">
+    <h2 class="text-center fw-bold mb-4" style="font-family: 'Cinzel', serif;">Book Your Sparkle Wash</h2>
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger text-center fw-bold shadow border border-danger mb-4 p-3">
+            <h4 class="mb-1">⚠️ Booking Failed</h4>
+            <p class="mb-0 fs-5">@TempData["Error"]</p>
+        </div>
+        <script>
+            alert("⚠️ @TempData["Error"]");
+        </script>
+    }
+
+    <form action="/User/SubmitBooking" method="post" class="card shadow-lg border-0 p-4 bg-white">
+
+        <h5 class="text-info border-bottom pb-2 mb-3">1. Personal Info</h5>
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label>Your Name</label>
+                <input type="text" name="CustomerName" class="form-control" required />
+            </div>
+            <div class="col-md-6">
+                <label>Mobile Number</label>
+                <input type="text" name="MobileNumber" class="form-control" required pattern="[0-9]{10}" />
+            </div>
+        </div>
+
+        <h5 class="text-info border-bottom pb-2 mb-3 mt-4">2. Vehicle Details</h5>
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <label class="fw-bold">Vehicle Type</label>
+                <select name="VehicleType" id="vehicleType" class="form-select" onchange="filterPackages()" required>
+                    <option value="Bike">🏍️ Bike</option>
+                    <option value="Car">🚗 Car</option>
+                    <option value="Three-Wheeler">🛺 Three-Wheeler</option>
+                    <option value="Heavy Truck">🚚 Heavy Truck</option>
+                    <option value="Tanker">🚛 Chemical Tanker</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label>Vehicle Model</label>
+                <input type="text" name="VehicleModel" class="form-control" placeholder="e.g. Swift" required />
+            </div>
+            <div class="col-md-4">
+                <label>Number Plate</label>
+                <input type="text" name="VehicleNumber" class="form-control" required />
+            </div>
+        </div>
+
+        <h5 class="text-info border-bottom pb-2 mb-3 mt-4">3. Package & Timing</h5>
+        <div class="mb-3">
+            <label class="fw-bold">Select Package</label>
+            <select name="Package" id="packageSelect" class="form-select" required>
+            </select>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label>Booking Date</label>
+                <input type="date" name="BookingDate" class="form-control" required />
+            </div>
+            <div class="col-md-6">
+                <label>Preferred Time (09:00 AM to 06:00 PM)</label>
+                <input type="time" name="BookingTime" class="form-control" min="09:00" max="18:00" required />
+            </div>
+        </div>
+
+        <h5 class="text-info border-bottom pb-2 mb-3 mt-4">4. Service Mode</h5>
+        <div class="mb-3">
+            <input type="radio" name="ServiceType" value="At Center" id="atCenter" checked onchange="toggleHomeService()" />
+            <label for="atCenter" class="me-4 fw-bold">🏢 Visit Center</label>
+
+           
+            <input type="radio" name="ServiceType" value="Home Service" id="homeService" onchange="toggleHomeService()" />
+            <label for="homeService" id="homeServiceLabel" class="fw-bold text-success">🏠 Home Service (₹20/km Extra)</label>
+        </div>
+
+        <div id="homeServiceDiv" style="display:none;" class="p-3 bg-light border border-success rounded mb-4">
+            <div class="row">
+                <div class="col-md-8">
+                    <label>Your Home Address</label>
+                    <textarea name="Address" class="form-control" rows="2" placeholder="Enter full address"></textarea>
+                </div>
+                <div class="col-md-4">
+                    <label>Distance (in km)</label>
+                    <input type="number" name="Distance" class="form-control" value="0" min="0" max="50" />
+                    <small class="text-muted">From our center</small>
+                </div>
+            </div>
+        </div>
+
+        <h5 class="text-info border-bottom pb-2 mb-3 mt-4">5. Payment Method</h5>
+        <div class="mb-4">
+            <select name="PaymentMethod" class="form-select" required>
+                <option value="Cash">💵 Cash</option>
+                <option value="Online">📱 Online (UPI / Net Banking)</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-info w-100 fw-bold fs-5 mt-3">Book Now</button>
+    </form>
+</div>
+
+<script>
+    function filterPackages() {
+        var vehicle = document.getElementById("vehicleType").value;
+        var packageSelect = document.getElementById("packageSelect");
+        var homeServiceRadio = document.getElementById("homeService");
+        var homeServiceLabel = document.getElementById("homeServiceLabel");
+        var atCenterRadio = document.getElementById("atCenter");
+        
+        packageSelect.innerHTML = "";
+        var options = [];
+        
+       
+        if (vehicle === "Bike") {
+            options = ["Bike Standard Wash (₹200)", "Bike Sport Detailing (₹450)", "Bike Teflon & PPF Coating (₹1500)"];
+        } else if (vehicle === "Car") {
+            options = ["Car Standard Wash (₹400)", "Car Premium Detailing (₹800)", "Car Ceramic & PPF Coating (₹5000)"];
+        } else if (vehicle === "Three-Wheeler") {
+            options = ["Three-Wheeler Wash (₹500)"];
+        } else if (vehicle === "Heavy Truck") {
+            options = ["Truck Standard Wash (₹1200)"];
+        } else if (vehicle === "Tanker") {
+            options = ["Tanker Chemical Deep Clean (₹2500)"];
+        }
+        
+        
+        if (vehicle === "Bike" || vehicle === "Car") {
+            homeServiceRadio.disabled = false;
+            homeServiceRadio.style.display = "inline-block";
+            homeServiceLabel.style.display = "inline-block";
+        } else {
+            atCenterRadio.checked = true;
+            homeServiceRadio.disabled = true;
+            homeServiceRadio.style.display = "none";
+            homeServiceLabel.style.display = "none";
+            toggleHomeService();
+        }
+        
+        options.forEach(function(pkg) {
+            var opt = document.createElement("option");
+            opt.value = pkg;
+            opt.innerHTML = pkg;
+            packageSelect.appendChild(opt);
+        });
+    }
+
+    function toggleHomeService() {
+        var homeDiv = document.getElementById("homeServiceDiv");
+        var isHome = document.getElementById("homeService").checked;
+        homeDiv.style.display = isHome ? "block" : "none";
+    }
+
+    window.onload = function() {
+        
+        var urlParams = new URLSearchParams(window.location.search);
+        var vType = urlParams.get('vType');
+        var isPPF = urlParams.get('isPPF'); 
+
+        
+        if (vType) {
+            document.getElementById("vehicleType").value = vType;
+        }
+        
+       
+        filterPackages();
+
+       
+        if (isPPF === 'true') {
+            var packageSelect = document.getElementById("packageSelect");
+            for (var i = 0; i < packageSelect.options.length; i++) {
+                if (packageSelect.options[i].value.includes("PPF")) {
+                    packageSelect.selectedIndex = i;
+                    break;
+                }
+            }
+        }
+        
+        toggleHomeService();
+    };
+</script>

@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Admin Login";
+}
+<div class="container mt-5">
+    <div class="card shadow-lg mx-auto" style="max-width: 400px; border-top: 5px solid red;">
+        <div class="card-body bg-dark text-white text-center p-5">
+            <h3 class="fw-bold mb-4">Admin Access</h3>
+
+            @if (TempData["Error"] != null)
+            {
+                <div class="alert alert-danger p-2">@TempData["Error"]</div>
+            }
+
+            <form action="/Admin/Login" method="post">
+                <input type="text" name="username" class="form-control mb-3" placeholder="Username" required />
+                <input type="password" name="password" class="form-control mb-3" placeholder="Password" required />
+                <button type="submit" class="btn btn-danger w-100 fw-bold">Login</button>
+            </form>
+        </div>
+    </div>
+</div>

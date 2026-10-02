@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Web-Based Vehicle Detailing \u0026 Service Management System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B593D023-2B91-CA6C-2A0F-0786726FB61D}|sparkelwash\\sparkelwash.csproj|d:\\web-based vehicle detailing \u0026 service management system\\sparkelwash\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B593D023-2B91-CA6C-2A0F-0786726FB61D}|sparkelwash\\sparkelwash.csproj|solutionrelative:sparkelwash\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Web-Based Vehicle Detailing \u0026 Service Management System\\sparkelwash\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "sparkelwash\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Web-Based Vehicle Detailing \u0026 Service Management System\\sparkelwash\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "sparkelwash\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-02T15:51:28.703Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
