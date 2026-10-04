@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 <Solution>
   <Project Path="sparkelwash/sparkelwash.csproj" />
 </Solution>
+=======
+<Solution>
+  <Project Path="sparkelwash/sparkelwash.csproj" />
+</Solution>
+>>>>>>> 435766f2c5b98ae807b4bda463f79160145d45ed
